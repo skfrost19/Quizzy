@@ -23,7 +23,7 @@ Quizzy is a quiz-based learning platform that allows users to create and take qu
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/username/quizzy.git`
+1. Clone the repository: `git clone https://github.com/skfrost19/quizzy.git`
 2. Install dependencies: `npm install`
 
 ## Usage
