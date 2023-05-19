@@ -1,0 +1,51 @@
+.creator-login-page{
+    width:100%;
+    height:60vh !important;
+    display:flex;
+    justify-content:center;
+    margin-top:20vh;
+    /* align-items:center; */
+}
+.creator-login-form,.creator-signup-form{
+    background-color:antiquewhite;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    box-shadow: 5px 2px 10px 2px grey;
+    border-radius: 10px;
+    min-width: 300px;
+    max-height:400px;
+}
+.creator-login-form{
+    max-height: 300px;
+}
+.creator-login-form>input,.creator-signup-form>input{
+    padding:10px 0 10px 10px;
+    border:none;
+}
+.creator-login-form>input,.creator-signup-form>input:focus{
+    outline: none;
+    padding-left:20px;
+}
+.already-account{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+
+}
+.already-account>p:nth-child(2){
+    color:maroon;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline 0px;
+}
+.creator-sign-up-btn,.creator-login-up-btn{
+    padding: 5px 0px 5px 0px;
+    background-color: rgb(49, 146, 236);
+    border:none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}

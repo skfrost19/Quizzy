@@ -1,0 +1,190 @@
+.quiz-pallet-page{
+    width: 100%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-section{
+    width: 100%;
+    padding: 50px 20px 0px 50px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.question-section-options{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:15px;
+    width: 100%;
+    overflow: hidden;
+    height: 50%;
+    /* background-color: beige; */
+}
+.options-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:15px;
+    /* background-color: aquamarine; */
+    width: 60%;
+}
+
+.option-btn{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    width: fit-content;
+    min-width: 300px;
+    padding: 10px 25px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 50px;
+    background-color: rgb(223, 161, 113);
+    cursor: pointer;
+}
+.option-btn:hover{
+    /* background-color: rgb(228, 153, 48) !important; */
+}
+
+.utility-btns{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    flex-wrap: wrap;
+}
+.save-btn{
+    background-color: green;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.review-btn{
+    background-color: purple;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.next-btn{
+    background-color: blue;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* question pallet */
+
+.question-pallet-section{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(9, 240, 155);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-pallet-section-btns{
+    display: flex;
+    /* height: 60%; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.question-pallet-btn{
+    /* background-color: blueviolet; */
+    margin:5px;
+    padding: 20px;
+    /* border:none; */
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color:white;
+    border:3px solid;
+}
+.question-pallet-btn:hover{
+    border:3px solid black !important;
+}
+
+/* hint bar */
+.hint-bar{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.hint-bar>div{
+    display: flex;
+    flex-direction: column;
+    /* gap:30px; */
+    align-items:center;
+    justify-content: center;
+}
+.hint-bar>div>*{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.saveBtn{
+    padding:15px 15px;
+    background-color: green;
+    border:none;
+    border-radius: 10px;
+}
+.reviewBtn{
+    padding:15px 15px;
+    background-color: purple;
+    border:none;
+    border-radius: 10px;
+}
+.visitedBtn{
+    padding:15px 15px;
+    background-color: orange;
+    border:none;
+    border-radius: 10px;
+}
+.unvisitedBtn{
+    padding:15px 15px;
+    background-color: red;
+    border:none;
+    border-radius: 10px;
+}
+
+/* test submit btn */
+.test-submit-btn{
+    /* height: 10%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    padding: 10px 30px;
+    border:none;
+    border-radius: 50px;
+    background-color: rgb(33, 49, 230);
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}

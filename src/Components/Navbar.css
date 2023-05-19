@@ -1,0 +1,13 @@
+.back-btn-navbar{
+    margin:30px 0px 0px 30px;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: rgb(51, 51, 217);
+    color:white;
+}
+.back-btn-navbar:hover{
+    background-color: rgb(127, 127, 235);
+}

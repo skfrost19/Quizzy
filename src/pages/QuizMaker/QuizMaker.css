@@ -1,0 +1,26 @@
+.set-quiz-name{
+    width: 100%;
+    height: 91vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding-top:100px;
+}
+.input-fields>*{
+    margin:5px;
+}
+.input-fields>input{
+    padding: 5px;
+}
+.set-quiz-question{
+    width: 100%;
+    height: 91vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding-top:100px;
+}

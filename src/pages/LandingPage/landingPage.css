@@ -1,0 +1,121 @@
+.hero-section-container{
+    height: 85vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding-top:5vh;
+}
+.website-title-tag{
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: c.enter; */
+    align-items: flex-start;
+    padding-top: 20vh;
+}
+.hero-section-signup-button>form{
+    padding-top: 30px;
+}
+.hero-section-signup-button>form>input{
+    padding: 10px 25px 10px 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    /* border:1px; */
+}
+.hero-section-signup-button>form>button{
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border:none;
+    /* background-color: rgb(61, 131, 244); */
+    cursor:pointer;
+    color:white;
+    text-transform: capitalize;
+}
+
+.hero-section-signup-button>form>button {
+    box-shadow: 5px 3px 10px 5px grey;
+    background-color: #00aaff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    animation: colorChange 5s infinite;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-color: #00aaff;
+    }
+    50% {
+      background-color: #ff00aa;
+    }
+    100% {
+      background-color: #00aaff;
+    }
+  }
+  
+.hero-section-signup-button>form>button:hover{
+    background-color: rgb(13, 104, 250);
+
+}
+
+.hero-section-image>img{
+    /* border-radius: 50% 50% 10% 10%; */
+    width:40vw;
+    height: auto;
+    padding: 30px;
+    /* box-shadow: 0px 10px 0px 0px grey; */
+}
+.hero-section-image>img{
+    position: relative;
+    animation: oscillate 3s infinite ease-in-out; /* Adjust the duration as needed */
+}
+  
+@keyframes oscillate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the vertical distance */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+.main-section{
+    background-color: aliceblue;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+.vertical-line{
+    border: 1px solid black;
+    height: 50vh;
+    margin:0px 30px 0px 30px;
+}
+.learning-line{
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+.learning-line>div:nth-child(1){
+    margin-top:0px;
+}
+.learning-line>div:nth-child(3){
+    margin-top:60px;
+}
+.learning-line>div:nth-child(1)>p{
+    margin-top: 80px;
+    font-size: 2rem;;
+}
+.learning-line>div:nth-child(3)>p{
+    margin-top: 80px;
+    font-size: 2rem;;
+}
